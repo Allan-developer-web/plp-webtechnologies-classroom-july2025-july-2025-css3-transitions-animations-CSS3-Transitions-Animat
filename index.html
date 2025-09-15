@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Transitions and Animations for Dynamic Styling Effects</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>CSS + JavaScript Functions + Animations Demo</h1>
+
+
+    <!-- PART 1: CSS Animations -->
+
+<h2>Part 1: CSS3 Transitions and Animations for Dynamic Styling Effects</h2>
+    <button class="fade">Fade + Scale</button>
+    <button class="slide">Slide Overlay</button>
+    <button class="pulse">Pulse</button>
+    <button class="wiggle">Wiggle</button>
+
+
+    <!-- PART 2: JS Functions -->
+
+<h2>Part 2: JavaScript Functions — Scope, Parameters & Return Values</h2>
+    <button onclick="showRectangleArea()">Calculate Area</button>
+    <button onclick="incrementCounter()">Increment Counter</button>
+    <button onclick="setBackgroundColor('myBox', 'lightblue')">Change Color</button>
+    <button onclick="triggerAnimation('myBox', 'animateBox')">Trigger Animation</button>
+
+    <div id="myBox">Box</div>
+
+
+    <!-- PART 3: Combined Demo -->
+
+<h2>Part 3: Combining CSS Animations with JavaScript</h2>
+    <button onclick="triggerAnimation('myBox', 'animateBox')">Bounce Box</button>
+    <button onclick="toggleModal()">Toggle Modal</button>
+
+    <div id="myModal" class="modal">
+        <p>Hello! I’m a sliding modal.</p>
+    </div>
+<h3>Card Flip</h3>
+    <div class="card-container">
+        <div class="card" onclick="this.classList.toggle('flip')">
+            <div class="card-face card-front">Front</div>
+            <div class="card-face card-back">Back</div>
+        </div>
+    </div>
+
+<h3>Loading Animation</h3>
+    <button onclick="startLoading()">Start Loading</button>
+    <button onclick="stopLoading()">Stop Loading</button>
+    <div id="spinner" class="spinner"></div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
